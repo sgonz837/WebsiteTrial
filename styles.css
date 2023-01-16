@@ -1,0 +1,157 @@
+
+            /* h1 is used for the header*/
+                h1          {   color: #FFD700;
+                                text-align: center;
+                                text-decoration: underline;
+                                text-decoration-color: white; 
+                            }
+            /* p is used for the text in the body*/
+                p           {
+                                margin-left: 200px;
+                                margin-right:200px;
+                                text-align: justify;
+
+                            }
+                            
+                p4          {
+                                color: red;
+                            }
+            
+
+                .padding    {   padding: 1em;}
+
+                .margin     {   margin: 1em;}
+                /* I set the universal table width to 80%
+                    and i would call it using td class = "table" */
+                table       {
+                                width: 80%;
+                                border-collapse: collapse;
+                            }
+                /* Now the four boxes are not width of 80%
+                but I set the universal width to 80%
+                Solution is simple, just make another rule setting
+                width to a different width % */              
+                .fourbox    {
+                                width: 25%;
+                            }
+                /* The Css styling for the header section is all here */
+                .head-content{  background-color: #808080;
+                                border-width: 3px;
+                                border-style: solid;
+                                border-radius: 5px;
+                            }
+                /* The CSS styling for the body section is all here */
+                .body-box   {
+                                background-color: #E6E6FA;
+                                color: black;
+                                font-size: large;
+                                padding-top: .5em;
+                                padding-bottom: .5em;
+                                text-align: center;
+                                border-style: solid;
+                                border-color: black;
+                                border-radius: 5px;
+                            }
+                /* The Css Styling for the foot section is all here */
+                .foot-box   {
+                                background-color: #B0C4DE;
+                                color: #FFD700;
+                                font-size: large;
+                                padding-top: .5em;
+                                padding-bottom: .5em;
+                                text-align: center;
+                                border-style: solid;
+                                border-color: black;
+                                border-radius: 5px;
+                            }
+
+                /*Coding Below is used from 
+            https://kuvapcsitrd01.kutztown.edu/~carelli/website/courses/csc242/displaySourceCode.php?phpfile=css/pseudo.html
+                */
+
+                /* unvisited link */
+
+                a:link      {
+                                color: #808080;
+                            }
+                /* visited link */
+
+                a:visited   {
+                                color: green;
+                            }
+                /* mouse over link */
+
+                a:hover     {
+                                color: black;
+                            }
+                /* selected link 
+                 - diplays while the link is being clicked */
+
+                a:active    {
+                                color: blue;
+                            }
+    
+                .dropdown   {
+                                position: relative;
+                                border-style: none;
+                            }
+                /* The coding below is used from but I modified a few things to fit my table
+            https://kuvapcsitrd01.kutztown.edu/~carelli/website/courses/csc242/displaySourceCode.php?phpfile=css/dropdown.html
+                */
+                .dropbox    {
+                                background-color: #ADD8E6;
+                                color: #800080;
+                                font-size: large;
+                                padding-top: .5em;
+                                padding-bottom: .5em;
+                                text-align: center;
+                                border-style: solid;
+                                border-color: black;
+                                border-radius: 5px;
+                            }
+                 /* Dropdown Content (Hidden by Default) */
+    
+                .dropdown-content {
+                                display: none;
+                                position: absolute;
+                                background-color: #ADD8E6;
+                                width:100%;
+                            }
+                /* Links inside the dropdown */
+    
+                .dropdown-content a {
+                                color: #800080;
+                                padding: .5em;
+                                display: block;
+                                text-align: center;
+                            }
+                /* Change color of dropdown links on hover */
+    
+                .dropdown-content a:hover {
+                                background-color: #E0FFFF;
+                            }
+                /* Show the dropdown menu on hover */
+    
+                .dropdown:hover .dropdown-content {
+                                display: block;
+                                border-style: solid;
+                                border-color: gray;
+                                border-radius: 5px;
+                            }
+
+                .loginbox   {
+                                margin-left: 500px;
+                                
+                                border-style: solid;
+                                border-color: grey;
+                                border-radius: 5px;
+                                border-width: 3px;
+                                width: 35%;
+
+                            }
+                .required-text{
+                                color:red;
+                }
+                .loginbox-text{
+                                text-align: left;
+                }
